@@ -1,0 +1,19 @@
+[package]
+name = "dragen_scrna_barcode"
+version = "0.1.0"
+authors = ["Ken Eng keng@illumina.com"]
+edition = "2018"
+
+[dependencies]
+flate2 = "1.0.14"
+bio = "0.31.0"
+needletail = "0.4"
+clap = { version = "4.0", features = ["derive"] }
+substring = "1.4.5"
+regex = "1.11.1"
+textdistance = "1.1.1"
+distance = "0.4.0"
+
+[[bin]]
+name = "get_scrna_barcodes"
+path = "src/main.rs"
