@@ -1,7 +1,5 @@
 # scrna_barcode_tools_rs
 
-<<<<<<< HEAD
-
 A Rust utility to help grab cell-barcodes from FASTQ/BAM file. Current focused on PipSeq library kits, but can be extended for others.
 
 # Assumptions:
@@ -99,4 +97,3 @@ block3_str --- barcode sequence of the third block of the barcode compared to al
 block4_dist --- hamming distance of the fourth block of the barcode compared to all Block4 of the pipseq barcodes
 block4_dist --- barcode sequence of the fourth block of the barcode compared to all Block4 of the pipseq barcodes
 total_dist --- total hamming distance of barcode_sequence_extracted and closest_whitelist_barcode
->>>>>>> 2a93db24731dff8e496ac5f1ff1301b9b52c44e7
