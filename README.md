@@ -47,6 +47,8 @@ cargo build --release
 get_scrna_barcodes --fastq {FASTQ_path} --barcode-file {barcode_file} >  {OUTPUT_CSV}
 ```
 
+![command line help](https://github.com/keng404/scrna_barcode_tools_rs/blob/main/Screen%20Shot%202025-06-25%20at%209.16.18%20AM.png)
+
 ### description of output csv ```{OUTPUT_CSV}``` file
 - read_name --- read name that can be used to query FASTQ or BAM file
 - barcode_sequence_extracted --- the entire barcode extracted from the read
