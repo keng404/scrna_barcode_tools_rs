@@ -1,6 +1,7 @@
 # scrna_barcode_tools_rs
 
 A Rust utility to help grab cell-barcodes from FASTQ/BAM file. Current focused on PipSeq library kits, but can be extended for others.
+This is not an official Illumina software utility, as is provided as-is 
 
 # Assumptions:
 - Illumina scRNA kit and use of DRAGEN to analyze
@@ -60,3 +61,7 @@ get_scrna_barcodes --fastq {FASTQ_path} --barcode-file {barcode_file} >  {OUTPUT
 - block4_dist --- hamming distance of the fourth block of the barcode compared to all Block4 of the pipseq barcodes
 - block4_dist --- barcode sequence of the fourth block of the barcode compared to all Block4 of the pipseq barcodes
 - total_dist --- total hamming distance of barcode_sequence_extracted and closest_whitelist_barcode
+
+# DISCLAIMER
+
+TO THE GREATEST EXTENT PERMITTED BY APPLICABLE LAW, THIS WEBSITE AND ITS CONTENT, INCLUDING ALL SOFTWARE, SOFTWARE CODE, SITE-RELATED SERVICES, AND DATA, ARE PROVIDED "AS IS," WITH ALL FAULTS, WITH NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, NON-INFRINGEMENT OR FITNESS FOR A PARTICULAR PURPOSE. ALL WARRANTIES ARE REJECTED AND DISCLAIMED. YOU ASSUME TOTAL RESPONSIBILITY AND RISK FOR YOUR USE OF THE FOREGOING. ILLUMINA IS NOT OBLIGATED TO PROVIDE ANY SUPPORT FOR ANY OF THE FOREGOING, AND ANY SUPPORT ILLUMINA DOES PROVIDE IS SIMILARLY PROVIDED WITHOUT REPRESENTATION OR WARRANTY OF ANY KIND. NO ORAL OR WRITTEN INFORMATION OR ADVICE SHALL CREATE A REPRESENTATION OR WARRANTY OF ANY KIND. ANY REFERENCES TO SPECIFIC PRODUCTS OR SERVICES ON THE WEBSITES DO NOT CONSTITUTE OR IMPLY A RECOMMENDATION OR ENDORSEMENT BY ILLUMINA.
